@@ -1,5 +1,5 @@
-.forEach() neve more!
-=====================
+.forEach() NEVER more!
+======================
 
 Let's improve our javascript skills by taking 5 functions that you probably know
 and use them in a better way to write a much more readable, reusable and declarative 
@@ -17,7 +17,7 @@ Functions
 - map
 - filter
 - reduce
-- concat
+- concatAll
 - zip
 
 License
