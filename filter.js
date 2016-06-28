@@ -20,6 +20,7 @@ Array.prototype.filter = function (predicate) {
     return result;
 };
 
-const topRatingVideos = videos.filter(video => video.rating === 5);
+const ratingFive = item => item.rating === 5;
+const topRatingVideos = videos.filter(ratingFive);
 
 console.log(topRatingVideos);
