@@ -19,3 +19,9 @@ Functions
 - reduce
 - concat
 - zip
+
+License
+-------
+
+Made with <strike>love</strike> _a keyboard_ by [Danilo Barros](http://danilojr.azurewebsites.net).
+Licensed under the MIT License.
