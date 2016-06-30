@@ -1,15 +1,15 @@
-.forEach() NEVER more!
-======================
+forEach() Nunca Mais!
+=====================
 
-Let's improve our javascript skills by taking 5 functions that you probably know
-and use them in a better way to write a much more readable, reusable and declarative 
-code instead of an imperative one.
+Você vai ficar surpreso ao ver que a combinação de apenas 5 funções pode realizar as 
+mais complexas tarefas ao manipular coleções.
 
-You'll be surprised to learn that this 5 simple functions can make the most of 
-operations with collections. 
+Ao combinar tais funções, que você provavelmente já conhece, apesar de montar blocos de 
+operações complexas, você escreverá muito menos código, tornando-o mais legível, 
+reutilizável e declarativo ao invés de imperativo.
 
-So, that said, why still using `forEach()` and build gigantic-confusing-code-blocks
-when you can build a much more elegant one?
+Então, por que continuar usando `forEach()` e construir blocos de código gigantes e 
+confusos se você pode escrevê-los mais elegantemente?
 
 Functions
 ---------
@@ -23,5 +23,8 @@ Functions
 License
 -------
 
-Made with <strike>love</strike> _a keyboard_ by [Danilo Barros](http://danilojr.azurewebsites.net).
-Licensed under the MIT License.
+MIT License.
+
+------------
+
+Feito com <strike>amor</strike> _um teclado_ por [Danilo Barros](http://github.com/danilobjr).
