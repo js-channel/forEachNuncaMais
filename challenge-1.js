@@ -25,7 +25,7 @@ const pick = props => obj =>
     props.reduce((accu, curr) => { accu[curr] = obj[curr]; return accu; }, {})
 
 const byRatingEquals5 = propEquals('rating')(5)
-const toIdAndTitle = obj => pick(['id', 'title'])(obj)
+const toIdAndTitle = pick(['id', 'title'])
 
 const topRatingMovies = movies
     .filter(byRatingEquals5)
