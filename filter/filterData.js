@@ -1,4 +1,4 @@
-module.exports.videos = [
+module.exports.movies = [
     {
         "id": 70111470,
         "title": "Die Hard",
