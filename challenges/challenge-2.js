@@ -1,3 +1,6 @@
+const { movieCategories } = require('./../concatAll/concatAllData');
+const { log } = require('./../helpers');
+
 // [
 //     {
 //         "id": 70111470,
@@ -13,3 +16,5 @@
 
 // filter, map, concatAll
 // CANT USE: boxarts[0] .. boxarts.pop() .shift()
+
+log(movieCategories);
