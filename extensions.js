@@ -7,3 +7,7 @@ Array.prototype.concatAll = function() {
 
     return result;
 }
+
+Array.prototype.concatMap = function (modifierFunction) {
+    return this.map(modifierFunction).concatAll();
+}
