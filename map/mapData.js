@@ -1,4 +1,6 @@
-module.exports.videos = [
+const names = ['Alice', 'Bruno', 'Camila', 'Daniel', 'Elder'];
+
+const videos = [
     {
         "id": 70111470,
         "title": "Die Hard",
@@ -32,3 +34,8 @@ module.exports.videos = [
         "bookmark": [{ id: 432534, time: 65876586 }]
     }
 ];
+
+module.exports = {
+    names,
+    videos
+}

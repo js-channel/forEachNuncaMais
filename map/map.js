@@ -1,4 +1,32 @@
-const { videos } = require('./mapData');
+const { names, videos } = require('./mapData');
+const { log } = require('./../helpers.js');
+
+// EXAMPLES
+// ========
+
+// for(let i = 0; i < names.length; i++) {
+//     log(names[i]);
+// }
+
+// names.forEach(name => log(name));
+
+// or, refactoring to simpler way
+
+// names.forEach(log);
+
+
+// SOLVING PROBLEM WITH forEach()
+// ==============================
+
+// const videosWithIdAndTitle = [];
+// 
+// videos.forEach(video => videosWithIdAndTitle.push({ id: video.id, title: video.title }));
+// 
+// log(videosWithIdAndTitle);
+
+
+// IMPLEMENTING map()
+// ==================
 
 Array.prototype.map = function (modifierFunction) {
     let result = [];
@@ -8,8 +36,12 @@ Array.prototype.map = function (modifierFunction) {
     return result;
 };
 
+
+// REFACTORING PROBLEM WITH map()
+// ==============================
+ 
 const toPairsOfIdAndTitle = video => ({ id: video.id, title: video.title });
 
 const videosWithIdAndTitle = videos.map(toPairsOfIdAndTitle);
 
-console.log(videosWithIdAndTitle);
+log(videosWithIdAndTitle);
