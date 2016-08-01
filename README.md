@@ -20,6 +20,11 @@ Functions
 - concatAll
 - zip
 
+Exercises
+---------
+
+- filter: [jsbin.com/vivosej](http://jsbin.com/vivosej) - Resolution ([challenge 1](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-1.js))
+
 License
 -------
 
