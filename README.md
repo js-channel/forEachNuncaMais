@@ -33,6 +33,9 @@ e clique no botão 'Edit in JS Bin' para entrar no exercício.
 
 - filter: [Exercício](http://jsbin.com/vivosej) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-1.js)
 - concatAll: [Exercício](http://jsbin.com/rijiju) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-2.js)
+- reduce: 
+  - [Exercício #1](http://jsbin.com/toqibu) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-3.js)
+  - [Exercício #2](http://jsbin.com/gecolu) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-4.js)
 
 Licença
 -------

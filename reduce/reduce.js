@@ -2,7 +2,8 @@ const { concatMap } = require('./../extensions');
 const { boxarts, movies, movieCategories } = require('./reduceData');
 const { log } = require('./../helpers');
 
-// 1 - Use forEach to find the largest box art
+// Solving Problem Using forEach()
+// ===============================
 
 // let largestSize = -Infinity;
 // let largestBoxart;
@@ -18,7 +19,9 @@ const { log } = require('./../helpers');
 
 // log(largestBoxart);
 
-// 2 - How reduce works
+
+// How reduce() Works
+// ==================
 
 // const sum = [1,2,3,4,5].reduce((accumulatedValue, currentValue) => {
 //     log(`${accumulatedValue}, ${currentValue}`);
@@ -33,7 +36,9 @@ const { log } = require('./../helpers');
 // #4 - (10, 5) -> return 10 + 5
 // 15
 
-// 3 - Implement reduce()
+
+// Implementing reduce() Partially
+// ===============================
 
 // Array.prototype.reducee = function (operate) {
 //     let accumulatedValue = this[0];
@@ -52,7 +57,9 @@ const { log } = require('./../helpers');
 
 // log(sum);
 
-// 4 - Resolve problem with reduce
+//
+// Refactoring Problem Using reduce()
+// ==================================
 
 // const largestBoxart = boxarts.reducee((largestBoxart, currentBoxart) => {
 //     const largestSize = largestBoxart.width * largestBoxart.height;
@@ -63,22 +70,27 @@ const { log } = require('./../helpers');
 
 // log(largestBoxart);
 
-// 5 - Challenge 3
 
-// - sum all video ids
+// Exercises - Challenge 3
+// ======================
 
-// id 1: 7024
-// id 2: 5612
-// ===
-// 7024 + 5612 + ...
+// jsbin.com/toqibu
 
-// const sumResult = movieCategories
-//     .concatMap(category => category.videos.map(video => video.id))
-//     .reducee((accu, curr) => accu + curr);
 
-// log(sumResult);
+// Exercises Resolution
+// ====================
 
-// We've done:
+// ./../challenges/challenge-3.js
+
+
+// reduce() - Part 2
+// =================
+
+
+// Presenting a New Problem
+// ========================
+
+// What we've done so far:
 
 // [
 //     {
@@ -104,6 +116,10 @@ const { log } = require('./../helpers');
 //     "675465": "Fracture"
 // }
 
+
+// Solving New Problem Using forEach()
+// ===================================
+
 // let ids = {};
 
 // movieCategories
@@ -112,7 +128,9 @@ const { log } = require('./../helpers');
 
 // log(ids);
 
-// 5 - Reducing with an initial value
+
+// How Initial Value Works on reduce()
+// ===================================
 
 // [1,2,3,4,5].reducee((accu, curr) => accu + curr, 10)
 
@@ -120,7 +138,9 @@ const { log } = require('./../helpers');
 // #2 - (11, 2) -> return 11 + 2
 // ...
 
-// 6 - Evolve reduce implementation with initial value
+
+// Refactoring reduce() Implementation For Use an Initial Value
+// ============================================================
 
 Array.prototype.reducee = function (operate, initialValue) {
     let accumulatedValue = initialValue || this[0];
@@ -134,7 +154,9 @@ Array.prototype.reducee = function (operate, initialValue) {
     return accumulatedValue;
 }
 
-// 7 - Refactoring problem using reducee
+
+// Refactoring Problem Using reduce() with Inital Value
+// ====================================================
 
 const ids = movieCategories
     .concatMap(category => category.videos)
@@ -145,32 +167,14 @@ const ids = movieCategories
 
 log(ids);
 
-// 8 - Challenge 4 (use this array: movieCategories):
-// Exercises found in: jsbin.com/gecolu
-// If you see a blank screen, click in "Edit in JSBin" button on top right corner
 
-// - Retrieve the largest rating 
+// Exercises - Challenge 4 
+// =======================
 
-// RESULT: number
+// jsbin.com/gecolu
 
-// - Retrive the calculated area of all largest boxarts, then sum them
 
-// RESULT: number
+// Exercises Resolution
+// ====================
 
-// - Retrieve the id, title, and smallest box art url for every video
-
-// RESULT:
-// [
-//     {
-//         "id": 70111470,
-//         "title": "Die Hard",
-//         "boxart": "http://cdn-0.nflximg.com/images/2891/DieHard150.jpg"
-//     },
-//     {
-//         "id": 654356453,
-//         "title": "Bad Boys",
-//         "boxart": "http://cdn-0.nflximg.com/images/2891/DieHard150.jpg"
-//     }
-// ] 
-
-// - Reimplement map and filter using reduce() instead forEach()
+// ./../challenges/challenge-4.js
