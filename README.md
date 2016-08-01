@@ -32,6 +32,7 @@ Ao clicar no link 'Exercício', você verá uma tela em branco. Vá com o mouse 
 e clique no botão 'Edit in JS Bin' para entrar no exercício.
 
 - filter: [Exercício](http://jsbin.com/vivosej) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-1.js)
+- concatAll: [Exercício](http://jsbin.com/rijiju) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-2.js)
 
 Licença
 -------

@@ -1,6 +1,9 @@
 const { movieCategories } = require('./concatAllData');
 const { log } = require('./../helpers');
 
+// Solving Problem Using forEach()
+// ===============================
+
 // const movieIds = []; 
 
 // movieCategories.forEach(category =>
@@ -9,7 +12,11 @@ const { log } = require('./../helpers');
 //     )
 // );
 
-[1,2,3].concat([4,5,6]) // [1,2,3,4,5,6]
+
+// Implementing concatAll()
+// ========================
+
+// [1,2,3].concat([4,5,6]) // [1,2,3,4,5,6]
 
 Array.prototype.concatAll = function() {
     let result = [];
@@ -21,8 +28,24 @@ Array.prototype.concatAll = function() {
     return result;
 }
 
+
+// Refactoring Problem Using concatAll()
+// =====================================
+
 const movieIds = movieCategories
     .map(category => category.videos.map(v => v.id))
     .concatAll();
 
 log(movieIds);
+
+
+// Exercises
+// =========
+
+// jsbin.com/rijiju
+
+
+// Exercises Resolution
+// ====================
+
+// ./../challenges/challenge-2.js

@@ -2,6 +2,10 @@ require('./../extensions');
 const { movieCategories } = require('./../concatAll/concatAllData');
 const { log } = require('./../helpers');
 
+// This is the resolution for concatAll exercises
+// If you want to try it, check this link: jsbin.com/rijiju
+// Resolution in this video: https://youtu.be/48xrrPF94Xs?list=PLhxF6V44XvXQzeZqn3Xd95RKm_Gr7JT7y
+
 // ### OBJECTIVE
 
 // [
@@ -22,7 +26,7 @@ const { log } = require('./../helpers');
 // filter, map, concatAll
 // CANT USE: boxarts[0] .. boxarts.pop() .shift()
 
-// ### IMPLEMENTATION
+// ### IMPLEMENTING
 
 // const selectedMovies = movieCategories
 //     .map(category => category.videos)
