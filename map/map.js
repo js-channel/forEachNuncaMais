@@ -1,7 +1,7 @@
 const { names, videos } = require('./mapData');
 const { log } = require('./../helpers.js');
 
-// EXAMPLES
+// Examples
 // ========
 
 // for(let i = 0; i < names.length; i++) {
@@ -15,7 +15,7 @@ const { log } = require('./../helpers.js');
 // names.forEach(log);
 
 
-// SOLVING PROBLEM WITH forEach()
+// Solving Problem With forEach()
 // ==============================
 
 // const videosWithIdAndTitle = [];
@@ -25,7 +25,7 @@ const { log } = require('./../helpers.js');
 // log(videosWithIdAndTitle);
 
 
-// IMPLEMENTING map()
+// Implementing map()
 // ==================
 
 Array.prototype.map = function (modifierFunction) {
@@ -37,7 +37,7 @@ Array.prototype.map = function (modifierFunction) {
 };
 
 
-// REFACTORING PROBLEM WITH map()
+// Refactoring Problem With map()
 // ==============================
  
 const toPairsOfIdAndTitle = video => ({ id: video.id, title: video.title });
