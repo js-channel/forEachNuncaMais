@@ -1,22 +1,8 @@
 const { movies } = require('./filter/filterData');
 const { log } = require('./helpers');
 
-// [
-//     {
-//         id: 1,
-//         title: 'The Movie',
-//         rating: 5
-//     },
-//     {
-//         id: 2,
-//         title: 'The Movie 2',
-//         rating: 5
-//     },
-// ]
-
-//     {
-//         2: 'The Movie 2'
-//     },
+// This is the resolution for filter exercises
+// If you want to try it, check this link: jsbin.com/vivosej
 
 const propEquals = propName => value => obj => 
     obj[propName] === value
