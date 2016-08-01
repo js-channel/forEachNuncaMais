@@ -11,8 +11,13 @@ reutilizável e declarativo ao invés de imperativo.
 Então, por que continuar usando `forEach()` e construir blocos de código gigantes e 
 confusos se você pode escrevê-los mais elegantemente?
 
-Functions
----------
+Assista aos Vídeos
+------------------
+
+[forEach() Nunca Mais no YouTube](https://www.youtube.com/playlist?list=PLhxF6V44XvXQzeZqn3Xd95RKm_Gr7JT7y)
+
+Funções
+-------
 
 - map
 - filter
@@ -20,16 +25,19 @@ Functions
 - concatAll
 - zip
 
-Exercises
----------
+Exercícios
+----------
 
-- filter: [jsbin.com/vivosej](http://jsbin.com/vivosej) - Resolution ([challenge 1](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-1.js))
+Ao clicar no link 'Exercício', você verá uma tela em branco. Vá com o mouse ao canto superior direito
+e clique no botão 'Edit in JS Bin' para entrar no exercício.
 
-License
+- filter: [Exercício](http://jsbin.com/vivosej) - [Resolução](https://github.com/js-channel/forEachNuncaMais/blob/master/challenges/challenge-1.js)
+
+Licença
 -------
 
 MIT License.
 
 ------------
 
-Feito com <strike>amor</strike> _um teclado_ por [Danilo Barros](http://github.com/danilobjr).
+Feito iom <strike>amor</strike> _um teclado_ por [Danilo Barros](http://github.com/danilobjr).
