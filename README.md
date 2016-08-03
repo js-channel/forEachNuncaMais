@@ -44,4 +44,4 @@ MIT License.
 
 ------------
 
-Feito iom <strike>amor</strike> _um teclado_ por [Danilo Barros](http://github.com/danilobjr).
+Feito com <strike>amor</strike> _um teclado_ por [Danilo Barros](http://github.com/danilobjr).
